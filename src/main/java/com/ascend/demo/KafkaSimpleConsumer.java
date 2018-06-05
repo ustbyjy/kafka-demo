@@ -17,7 +17,7 @@ import java.util.Map;
 
 @Slf4j
 public class KafkaSimpleConsumer {
-    private static final String BROKER_LIST = "10.236.40.159:9092,10.236.40.159:9093,10.236.40.159:9094";
+    private static final String BROKER_LIST = "vhost1:9092,vhost1:9093,vhost1:9094";
     private static final int TIME_OUT = 60 * 1000;
     private static final int BUFFER_SIZE = 1024 * 1024;
     private static final int FETCH_SIZE = 100000;
